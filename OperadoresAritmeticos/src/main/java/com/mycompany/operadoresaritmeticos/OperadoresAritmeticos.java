@@ -21,10 +21,16 @@ public class OperadoresAritmeticos {
          x *= 2;
          System.out.println(x);
          */
-          
+         
+        /** ARREDONDAMENTO
          float y = 8.5f;
          int ar = (int) Math.round(y);
          System.out.println(ar);
+         */
+        
+        double ale =  Math.random();
+        int num = (int) (5 + ale * (10-5));
+        System.out.println(num);
                  
     }
 }
