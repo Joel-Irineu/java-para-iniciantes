@@ -16,8 +16,15 @@ public class OperadoresAritmeticos {
          System.out.println(numero);
          */
         
-        int x = 4;
-        x *= 2;
-        System.out.println(x);
+        /** ATRIBUICAO
+         int x = 4;
+         x *= 2;
+         System.out.println(x);
+         */
+          
+         float y = 8.5f;
+         int ar = (int) Math.round(y);
+         System.out.println(ar);
+                 
     }
 }
